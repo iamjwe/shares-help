@@ -1,0 +1,39 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/service-core/src",
+  "monorepo": true,
+  "root": "apps/service-core",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/service-core/tsconfig.app.json"
+  },
+  "projects": {
+    "service-core": {
+      "type": "application",
+      "root": "apps/service-core",
+      "entryFile": "main",
+      "sourceRoot": "apps/service-core/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/service-core/tsconfig.app.json"
+      }
+    },
+    "service-data": {
+      "type": "application",
+      "root": "apps/service-data",
+      "entryFile": "main",
+      "sourceRoot": "apps/service-data/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/service-data/tsconfig.app.json"
+      }
+    },
+    "service-notify": {
+      "type": "application",
+      "root": "apps/service-notify",
+      "entryFile": "main",
+      "sourceRoot": "apps/service-notify/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/service-notify/tsconfig.app.json"
+      }
+    }
+  }
+}
