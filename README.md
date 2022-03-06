@@ -1,27 +1,27 @@
 # 一：运行示例
 ### 1.swagger接口
 
-![1646562682076](https://github.com/iamjwe/node-quant/blob/master/assets/1646562682076.png)
+![1646562682076](https://github.com/iamjwe/shares-help/blob/master/assets/1646562682076.png)
 
 ### 2.选股示例：筛选出今日龙头板块所有主板涨停个股（20220225）
 
 - 选股：/select/limit_select_stock
 
-![1646563325259](https://github.com/iamjwe/node-quant/blob/master/assets/1646563325259.png)
+![1646563325259](https://github.com/iamjwe/shares-help/blob/master/assets/1646563325259.png)
 
 - 选股结果
 
-![1646562966648](https://github.com/iamjwe/node-quant/blob/master/assets/1646562966648.png)
+![1646562966648](https://github.com/iamjwe/shares-help/blob/master/assets/1646562966648.png)
 
 ### 3.回测示例：回测该日买入后的收益
 
 - 回测：/backTest/limit_backTest
 
-![1646563359725](https://github.com/iamjwe/node-quant/blob/master/assets/1646563359725.png)
+![1646563359725](https://github.com/iamjwe/shares-help/blob/master/assets/1646563359725.png)
 
 - 回测结果
 
-![1646563086987](https://github.com/iamjwe/node-quant/blob/master/assets/1646563086987.png)
+![1646563086987](https://github.com/iamjwe/shares-help/blob/master/assets/1646563086987.png)
 
 # 二：程序启动
 ### 1.启动条件
@@ -112,5 +112,5 @@ npm install -g ts-node
 
 # 四：联系我
 
-![](https://github.com/iamjwe/node-quant/blob/master/assets/1646561916977.png)
+![](https://github.com/iamjwe/shares-help/blob/master/assets/1646561916977.png)
 
